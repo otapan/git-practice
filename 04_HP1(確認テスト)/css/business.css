@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+.business {
+  font-size: 30px;
+  color: #89B4E5;
+}
+
+.business span {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.business_all {
+  background-color: #E5E5E5;
+  max-width: 1920px;
+  height: 1500px;
+  /* display: flex; */
+  justify-content: space-around;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.business_left {
+  width: 40%;
+}
+
+
+.business_left img {
+  width: 100%;
+  opacity: 0.8;
+}
+
+.business_right {
+  width: 40%;
+}
+
+.business_right img {
+  width: 100%;
+  opacity: 0.8;
+}
+
+.business_item {
+  display: flex;
+  background-color: #fff;
+  width: 80%;
+  margin: 100px auto;
+  justify-items: center;
+  border-radius: 20px;
+}
+
+.item_img {
+  width: 50%;
+  
+}
+
+.item_img img {
+  align-items: center;
+  margin: 120px;
+  filter:drop-shadow(10px 10px 5px #333);
+  width: 70%;
+}
+
+.item_msg {
+  width: 50%;
+  color: #555;
+}
+
+.item_msg h1 {
+  font-size: 25px;
+  margin-top: 120px;
+}
+
+.item_msg small {
+  font-size: 15px;
+  color: rgb(189, 120, 230);
+}
+
+.item_msg h2 {
+  font-size: 20px;
+}
+
+.item_msg p {
+  font-size: 20px;
+  display: block;
+  width: 80%;
+  margin:30px auto;
+}
+
+.letter {
+  width: 980px;
+  margin: 150px auto;
+  padding: 0 20px;
+}
+
+.letter_inner {
+  border: 3px dotted #111;
+  padding: 50px;
+}
+
+.letter_inner h1 {
+  background-color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  position: relative;
+  bottom: 90px;
+  width: 40%;
+  margin: 0 auto 50px;
+  padding: 0 50px;
+  letter-spacing: 5px;
+}
+
+.letter_list h2 {
+  font-size: 50px;
+  line-height: 1;
+  margin-bottom: 50px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.letter_list h2 small {
+  font-size: 15px;
+  color: rgb(189, 120, 230);
+  text-align: center;
+}
+
+.letter_item p {
+  letter-spacing: 3px;
+  line-height: 3;
+  margin-bottom: 50px;
+}
+
+.letter_item p img {
+  width: 100%;
+  height: auto;
+}
+

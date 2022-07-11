@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  color: #555;
+  font-family: "Meiryo", "メイリオ";
+  
+}
+
+a {
+  text-decoration: none;
+  color: #89B4E5;
+}
+
+li {
+  list-style: none;
+  line-height: 20px;
+}
+
+header {
+  max-width: 3000px;
+  margin: auto;
+}
+
+.header_all {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+}
+
+.header_left .top_left{
+  max-width: 30%;
+}
+
+.header_left img {
+  width: 300px;
+  margin-left: 30px;
+  padding-top: 10px;
+}
+
+.header_right {
+  width: 60%;
+}
+
+.header_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header_list li {
+  padding-right: 20px;
+}
+
+.color {
+  color: rgb(189, 120, 230);
+}
+
+.img_main {
+  margin-top: 50px;
+  position: relative;
+}
+
+.img_main img {
+  width: 80%;
+  height: 700px;
+  border-radius: 0 200px 200px 0;
+  opacity: 0.8;
+}
+
+.img_main::after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 50%;
+  height: 10px;
+  position: absolute;
+  bottom: 100px;
+}
+
+.img_main::before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 50%;
+  height: 10px;
+  position: absolute;
+  top: 100px;
+  right: 20%;
+  z-index: 1;
+}
+
+.section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* お問い合わせ */
+.box_con {
+  max-width: 800px;
+  margin: 0  auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .box_con {
+    width: 95%;
+  }
+}
+
+.box_con form {
+  width: 100%;
+}
+
+.box_con form table {
+  width: 100%;
+}
+
+.box_con form table tr {
+  position: relative;
+}
+
+.box_con form table tr:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  border-bottom: dotted #cdcdcd 1px;
+}
+
+.box_con form table tr th {
+  width: 30%;
+  font-weight: normal;
+  padding: 1em .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .box_con form table tr th {
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #97ae88;
+    padding: .8em .2em;
+    color: #fff;
+  }
+}
+
+.box_con form table tr th span {
+  background: #cd6f55;
+  padding: 0 .3em;
+  color: #fff;
+  margin-left: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box_con form table tr td {
+  padding: 1em .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .box_con form table tr td {
+    padding: 1.5em .5em;
+    display: block;
+    width: 100%;
+  }
+}
+
+.box_con form table tr .box_br {
+  display: block;
+}
+
+.box_con form table tr select {
+  border: 1px solid #97ae88;
+}
+
+.box_con form table tr label input {
+  cursor: pointer;
+  display: none;
+  vertical-align: middle;
+}
+
+.box_con form table tr .radio02-input + label {
+  padding-left: 23px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.box_con form table tr .radio02-input + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.box_con form table tr .radio02-input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background: #97ae88;
+  border-radius: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.box_con form table tr select, .box_con form table tr input, .box_con form table tr textarea {
+  width: 100%;
+  height: 3em;
+  padding: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box_check {
+  text-align: center;
+  margin: 1em auto;
+}
+.box_check label {
+  display: inline-block;
+}
+.box_check label span {
+  margin-left: .3em;
+}
+
+.btn {
+  text-align: center;
+}
+.btn input {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.btn input:hover {
+  opacity: 0.7;
+}
+
+.contact_list {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact h1 {
+  font-size: 30px;
+  margin: 50px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #89B4E5;
+}
+
+.contact span {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #89B4E5;
+}
+
+footer {
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+}
+
+.box_br {
+  text-align: left;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
