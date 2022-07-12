@@ -263,6 +263,7 @@ header {
   cursor: pointer;
   border: none;
   border-radius: 10px;
+  background-color: #fff;
 }
 .btn input:hover {
   opacity: 0.7;
@@ -303,4 +304,12 @@ footer {
 
 .contact {
   margin-bottom: 50px;
+}
+
+.btn span {
+  display: block;
+  border: rgb(189, 120, 230) 1px solid;
+  border-radius: 20px;
+  margin: auto;
+  width: 250px;
 }
