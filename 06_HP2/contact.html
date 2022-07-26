@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8"/>
+    <title>HP2確認テスト</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="確認テストのページです">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Open+Sans:wght@400;700;800&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="../12_HP2/css/reset.css">
+    <link rel="stylesheet" href="../12_HP2/css/contact.css">
+    <link rel="stylesheet" href="../12_HP2/css/common.css">
+    <link rel="stylesheet" href="../12_HP2/css/common2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+    <body>
+      <header>
+        <div class="header_all">
+          <div class="header_logo"><h1><a href="">Coffee shop</a></h1></div>
+          <nav class="nav_bar">
+            <ul class="header_list">
+              <li><a href="../12_HP2/index.html">TOP</a></li>
+              <li><a href="../12_HP2/menu.html">MENU</a></li>
+              <li><a href="../12_HP2/conpany.html">COMPANY</a></li>
+              <li><a href="#" class="border">CONTACT</a></li>
+            </ul>
+          </nav>
+          <p class="drawer"></p>
+        </div>
+        <div class="header_bak">
+          <div class="bak_left">
+            <div class="header_msg">
+              <p>●私達は、お客様を日常から笑顔にするため、最高の空間とお菓子を創ります。<br>
+              ●社員全員で成長できる企業であるよう努力を続けます</p>
+            </div>
+            <div class="header_link"><a href="#">問い合わせはこちら<span>☞</span></a></div>
+          </div>
+          <div class="bak_center"></div>
+          <div class="bak_reight"></div>
+        </div>
+      </header>
+      <main>
+        <div class="msg">
+          <p></p>
+        </div>
+        <section class="contact section">
+          <div class="section_title">
+            <h2>CONTACT<span>問い合わせ</span></h2>
+          </div>
+        <div class="box_con">
+          <form method="post">
+            <table class="formTable">
+              <tr>
+                <th>確認</th>
+                <td>
+                  <div class="box_br">
+                    <label>
+                      <input name="contact_type" type="radio" value="1" class="radio02-input in_top" id="radio02-01">
+                      <label for="radio02-01">お問い合わせ</label>
+                    </label>
+                  </div>
+                  <div class="box_br">
+                      <label>
+                        <input name="contact_type" type="radio" value="1" class="radio02-input in_top" id="radio02-02">
+                        <label for="radio02-02">依頼</label>
+                      </label>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th>ご用件</th>
+                <td>
+                  <select name="ご用件">
+                    <option value="">選択してください</option>
+                    <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+                    <option value="リンクについて">リンクについて</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th>お名前<span>必須</span></th>
+                <td><input size="20" type="text" name="お名前" /></td>
+              </tr>
+              <tr>
+                <th>電話番号（半角）<span>必須</span></th>
+                <td><input size="30" type="text" name="電話番号" /></td>
+              </tr>
+              <tr>
+                <th>Mail（半角）</th>
+                <td><input size="30" type="text" name="Email" /></td>
+              </tr>
+              <tr>
+                <th>お問い合わせ内容<br /></th>
+                <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
+              </tr>
+            </table>
+            <div class="box_check">
+                <label>
+                    <input type="checkbox" name="acceptance-714" value="1" aria-invalid="false" class="agree"><span class="check">プライバシーポリシーに同意する</span>
+                </label>
+            </div>
+            <p class="btn">
+                <span><input type="submit" value="確認" /></span>
+            </p>
+          </form>
+        </div>
+        </section>
+        <div class="msg">
+          <p></p>
+        </div>
+      </main>
+      <footer>
+        <h2>Coffee Shop<span>コーヒーショップ</span></h2>
+        <div class="footer_content">
+          <img src="../12_HP2/img2/footer1.jpg" alt="footer画像1">
+          <img src="../12_HP2/img2/footer2.jpg" alt="footer画像2">
+          <img src="../12_HP2/img2/footer3.jpg" alt="footer画像3">
+          <img src="../12_HP2/img2/footer4.jpg" alt="footer画像4">
+        </div>
+        <div class="footer_sns">
+          <a href=""><img src="../12_HP2/img2/twitter.png" alt="twitter画像"><p>twitter</p></a>
+          <a href=""><img src="../12_HP2/img2/facebook.png" alt="facebook画像"><p>facebook</p></a>
+          <a href=""><img src="../12_HP2/img2/インスタ.jpg" alt="インスタ画像"><p>Instagram</p></a>
+        </div>
+        <p>©CODESTAR All Right Reserved.</p>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/common.js"></script>
+    </body>
+  </html>

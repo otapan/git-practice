@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+.bak_center {
+  background-image: url(../img2/top2.jpg);
+  background-size: cover;
+  width:30%
+}
+
+.bak_reight {
+  width: 30%;
+  background-image: url(../img2/menu_header.jpg);
+  background-size: cover;
+}
+
+.food_all {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap:wrap
+}
+
+.content {
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+.content img {
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  height: 200px;
+  border: #333 1px solid;
+  box-shadow: 5px 5px #3F98FE;
+  object-fit: cover;
+}
+
+.content h3 {
+  width: 60%;
+  margin: 30px auto 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+.content h3 span {
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.menu_dorink img {
+  box-shadow: 5px 5px ;
+}

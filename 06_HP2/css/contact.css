@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+.bak_center {
+  background-image: url(../img2/contact.jpg);
+  background-size: cover;
+  width:30%
+}
+
+.bak_reight {
+  width: 30%;
+  background-image: url(../img2/menu_header.jpg);
+  background-size: cover;
+}
+
+.header_msg::after {
+  background-image: url(../img2/topics1.jpg);
+  margin-top: 100px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.header_msg p {
+  display: block;
+  width: 500px;
+  height: 300px;
+  color: #fff;
+  text-align: left;
+  z-index: 2;
+  font-size: 30px;
+  position: relative;
+  top: 80px ;
+  font-weight: bold;
+}
+
+/* お問い合わせ */
+.box_con {
+  max-width: 800px;
+  margin: 0  auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .box_con {
+    width: 95%;
+  }
+}
+
+.box_con form {
+  width: 100%;
+}
+
+.box_con form table {
+  width: 100%;
+}
+
+.box_con form table tr {
+  position: relative;
+}
+
+.box_con form table tr:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  border-bottom: dotted #cdcdcd 1px;
+}
+
+.box_con form table tr th {
+  width: 30%;
+  font-weight: normal;
+  padding: 1em .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .box_con form table tr th {
+    text-align: center;
+    width: 100%;
+    display: block;
+    background: #97ae88;
+    padding: .8em .2em;
+    color: #fff;
+  }
+}
+
+.box_con form table tr th span {
+  background: #cd6f55;
+  padding: 0 .3em;
+  color: #fff;
+  margin-left: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box_con form table tr td {
+  padding: 1em .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+  .box_con form table tr td {
+    padding: 1.5em .5em;
+    display: block;
+    width: 100%;
+  }
+}
+
+.box_con form table tr .box_br {
+  display: block;
+}
+
+.box_con form table tr select {
+  border: 1px solid #97ae88;
+}
+
+.box_con form table tr label input {
+  cursor: pointer;
+  display: none;
+  vertical-align: middle;
+}
+
+.box_con form table tr .radio02-input + label {
+  padding-left: 23px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.box_con form table tr .radio02-input + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.box_con form table tr .radio02-input:checked + label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  background: #97ae88;
+  border-radius: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.box_con form table tr select, .box_con form table tr input, .box_con form table tr textarea {
+  width: 100%;
+  height: 3em;
+  padding: .5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box_check {
+  text-align: center;
+  margin: 1em auto;
+}
+.box_check label {
+  display: inline-block;
+}
+.box_check label span {
+  margin-left: .3em;
+}
+
+.btn {
+  text-align: center;
+}
+.btn input {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.btn input:hover {
+  opacity: 0.7;
+}
+
+.contact_list {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.contact h1 {
+  font-size: 30px;
+  margin: 50px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #89B4E5;
+}
+
+.contact span {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  color: #89B4E5;
+}
+
+footer {
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+}
+
+.box_br {
+  text-align: left;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
+
+.btn span {
+  display: block;
+  border: #333 1px solid;
+  border-radius: 20px;
+  margin: auto;
+  width: 250px;
+}

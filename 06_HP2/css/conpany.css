@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.bak_center {
+  background-image: url(../img2/company_img2.jpg);
+  background-size: cover;
+  width:30%
+}
+
+.bak_reight {
+  width: 30%;
+  background-image: url(../img2/test.jpg);
+  background-size: cover;
+}
+
+.header_msg::after {
+  background-image: url(../img2/topics1.jpg);
+  margin-top: 100px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.header_msg p {
+  display: block;
+  width: 500px;
+  height: 300px;
+  color: #fff;
+  text-align: left;
+  z-index: 2;
+  font-size: 30px;
+  position: relative;
+  top: 80px ;
+  font-weight: bold;
+}
+
+.company_profile table {
+  margin: auto;
+  width: 60%;
+  font-weight: bold;
+}
+
+.company_profile table tr {
+  border: #333 1px solid;
+  text-align: center;
+  /* padding: 20px; */
+  /* display: block; */
+}
+
+.company_profile table td {
+  /* display: inline-block; */
+  font-size: 15px;
+  padding: 20px;
+  border-left: #333 1px solid;
+}
+
+.company_title {
+  background-color: gray;
+  opacity: 0.9;
+}
+
+.section {
+  margin-bottom: 50px;
+}
