@@ -7,7 +7,7 @@ body {
   letter-spacing: 1px;
   word-break: break-all;
   color: #333;
-  max-width: 1920px;
+  /* max-width: 1920px; */
   margin: auto;
 }
 
@@ -141,9 +141,10 @@ header .drawer {
 
 @media screen and (max-width: 1024px) {
   .header_msg p {
-    width: 80%;
-    font-size: 25px;
+    width: 100%;
+    font-size: 20px;
   }
+  
 
   .bak_center {
     width: 0%;
@@ -279,6 +280,10 @@ header .drawer {
 
   .menu {
     height: 1000px;
+  }
+
+  .introduction_img_all {
+    display: none;
   }
 
   .loop_wrap ul li{

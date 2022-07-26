@@ -129,7 +129,8 @@
 .topics {
   background-image: url(../img2/bak.jpg);
   background-size: cover;
-  height: 800px;
+  height: 100%;
+  padding-bottom: 20px;
 }
 
 .topics h2 {
@@ -224,7 +225,8 @@
 .menu {
   background-image: url(../img2/bak1.jpg);
   background-size: cover;
-  height: 1500px;
+  height: 100%;
+  padding-bottom: 20px;
 }
 
 .menu_content {
@@ -304,7 +306,8 @@
 .introduction          {
   background-image: url(../img2/bak2.jpg);
   background-size: cover;
-  height: 900px;
+  height: 100%;
+  padding-bottom: 20px;
 }
 
 .introduction_content {
