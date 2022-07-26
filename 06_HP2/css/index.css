@@ -489,3 +489,16 @@
   top: 35px;
   right: -50px;
 }
+
+.loop_wrap {
+  /* display: flex; */
+  animation: loop-slide 20s infinite linear 1s both;
+}
+@keyframes loop-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
