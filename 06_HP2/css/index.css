@@ -49,7 +49,7 @@
   width: 70%;
   margin:  0 auto 150px;
   font-weight: bold;
-  z-index: 2;
+  /* z-index: 2; */
 }
 
 /* .header_msg::after {
@@ -74,12 +74,14 @@
 
 .header_msg h2 {
   font-size: 20px;
+  white-space: nowrap
 }
 
 .header_msg p {
   font-size: 20px;
   margin-top: 20px;
-  padding-top: 20;
+  /* padding-top: 20px; */
+  white-space: nowrap
 }
 
 .header_link  a {

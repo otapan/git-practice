@@ -126,19 +126,48 @@
   right: -50px;
 }
 
+@media screen and (max-width: 1024px) {
+  .bak_reight {
+    width: 30%;
+  }
+
+  .bak_center {
+    width: 0;
+    display: none;
+  }
+
+  .bak_left {
+    width: 70%;
+  }
+}
+
 @media screen and (max-width: 480px) {
 
   .bak_left {
-    width: 60%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
   }
 
-  .header_msg::after {
-    width: 120%;
+  .bak_reight {
+    width: 0;
+    display: none;
+  }
+
+  .header_msg {
+    text-align: center;
   }
 
   .header_msg img {
     width: 100%;
+    margin: auto;
   }
+
+  .header_msg::after {
+    width: 110%;
+  }
+
+  
 
   .food_all {
     display: inline-block;
@@ -152,8 +181,4 @@
   }
 }
 
-@media screen and (max-width: 375px) {
-  .header_msg::after {
-    top: -400px;
-  }
-}
+
