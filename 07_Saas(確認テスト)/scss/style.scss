@@ -1,0 +1,19 @@
+@import "color";
+
+body {
+  background-color: $black;
+  color: $black;
+
+  h1 {
+    background-color: $yellow;
+    display: inline-block;
+  }
+
+  p {
+    color: $red;
+  }
+  
+  ul {
+    color: $white;
+  }
+}
