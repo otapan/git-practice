@@ -1,0 +1,12 @@
+@import "./color";
+@import "./mixin";
+
+@media screen and (max-width: 480px) {
+  .top_img h1 {
+    font-size: 80px;
+  }
+
+  .inner {
+    width: 90%;
+  }
+}

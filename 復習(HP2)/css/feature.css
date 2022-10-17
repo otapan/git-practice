@@ -1,0 +1,97 @@
+@charset "UTF-8";
+.inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.feature_txt {
+  padding: 0 3%;
+}
+.feature_txt p {
+  letter-spacing: 0.2em;
+  line-height: 1.8em;
+  padding-bottom: 140px;
+}
+.feature_txt p strong {
+  color: #e4a93b;
+}
+.feature_txt p span {
+  border-bottom: 2px solid #e4a93b;
+}
+.feature_list {
+  display: flex;
+  justify-content: space-between;
+}
+.feature_item {
+  width: 30%;
+  height: auto;
+  margin-bottom: 100px;
+  box-shadow: 10px 10px 20px #ddd;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.feature_item:hover {
+  box-shadow: 0 0 0;
+  opacity: 0.7;
+  transition: 0.4s;
+  box-shadow: 5px 5px 10px #ddd;
+}
+.feature_item:hover .feature_date::after {
+  content: "";
+  position: absolute;
+  transition: 0.4s;
+  right: 4%;
+}
+.feature_img {
+  display: contents;
+  width: 100%;
+}
+.feature_img img {
+  width: 100%;
+}
+.feature_txt1 {
+  padding: 0 16px;
+}
+.feature_ttl {
+  margin: 40px 0;
+  font-size: 18px;
+  line-height: 1;
+}
+.feature_date {
+  font-size: 15px;
+  line-height: 1;
+  position: relative;
+  transition: 0.4s;
+  margin-bottom: 10px;
+}
+.feature_date::after {
+  content: "";
+  position: absolute;
+  background: url(../img/arrow.png) no-repeat;
+  background-size: contain;
+  width: 19%;
+  height: 55%;
+  display: block;
+  transition: 0.4s;
+  right: 20px;
+  top: 50%;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 480px) {
+  .feature_list {
+    display: block;
+  }
+  .feature_item {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+    border: solid 1px #ccc;
+  }
+  .feature_item:hover .feature_date::after {
+    content: "";
+    position: absolute;
+    transition: 0.4s;
+    right: -5%;
+  }
+}

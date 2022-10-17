@@ -1,0 +1,19 @@
+@import "./color";
+
+.top {
+
+  &_title {
+
+    h1 {
+
+      font-size: 80px;
+    }
+
+    p {
+
+      position: relative;
+      top: 20px;
+      font-size: 30px;
+    }
+  }
+}

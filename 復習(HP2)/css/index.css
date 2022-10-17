@@ -1,0 +1,27 @@
+@media screen and (max-width: 1024px) {
+  header .nav_bar ul li {
+    margin: 40px 12px 0;
+  }
+  header .nav_bar ul li a {
+    font-size: 20px;
+  }
+  .about_img img {
+    max-width: 340px;
+  }
+  .feature_wrap .feature_item {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .feature_wrap .feature_item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .arrow a img {
+    padding: 0;
+    width: 90%;
+  }
+  .service_wrap .service_item p {
+    font-size: 16px;
+  }
+}

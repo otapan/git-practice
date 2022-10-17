@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: black;
+}
+body h1 {
+  background-color: yellow;
+  display: inline-block;
+}
+body p {
+  color: red;
+}
+body ul {
+  color: white;
+}/*# sourceMappingURL=style.css.map */

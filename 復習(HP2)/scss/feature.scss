@@ -1,0 +1,135 @@
+@import "./color";
+@import "./mixin";
+
+.inner {
+
+  width: 70%;
+  margin: 0 auto;
+}
+
+.feature {
+
+  &_txt {
+
+    padding: 0 3%;
+
+    p {
+
+      letter-spacing: .2em;
+      line-height: 1.8em;
+      padding-bottom: 140px;
+
+      strong {
+
+        color: #e4a93b;
+      }
+
+      span {
+
+        border-bottom: 2px solid #e4a93b;
+      }
+    }
+  }
+
+  &_list {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_item {
+
+    width: 30%;
+    height: auto;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 20px #ddd;
+    cursor: pointer;
+    transition: .4s;
+
+    &:hover {
+
+      box-shadow: 0 0 0;
+      opacity: .7;
+      transition: .4s;
+      box-shadow: 5px 5px 10px #ddd;
+
+      .feature_date::after {
+
+        content: "";
+        position: absolute;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        right: 4%;
+      }
+    }
+  }
+
+  &_img {
+
+    display: contents;
+    width: 100%;
+
+    img {
+
+      width: 100%;
+    }
+  }
+
+  &_txt1 {
+
+    padding: 0 16px;
+  }
+
+  &_ttl {
+
+    margin: 40px 0;
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  &_date {
+
+    font-size: 15px;
+    line-height: 1;
+    position: relative;
+    transition: 0.4s;
+    margin-bottom: 10px;
+
+    &::after {
+
+      content: "";
+      position: absolute;
+      background: url(../img/arrow.png) no-repeat;
+      background-size: contain;
+      width: 19%;
+      height: 55%;
+      display: block;
+      -webkit-transition: 0.4s;
+      transition: 0.4s;
+      right: 20px;
+      top: 50%;
+    }
+  }
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 480px) {
+  .feature_list {
+    display: block;
+  }
+
+  .feature_item {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+    border: solid 1px #ccc;
+  }
+
+  .feature_item:hover .feature_date::after {
+    content: "";
+    position: absolute;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    right: -5%;
+  }
+}

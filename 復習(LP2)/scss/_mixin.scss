@@ -1,0 +1,11 @@
+@mixin header_menu {
+  content: "";
+  display: block;
+  width: 24px;
+  background: #aaaaaa;
+  height: 4px;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}

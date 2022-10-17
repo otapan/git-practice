@@ -1,0 +1,59 @@
+@import "./color";
+@import "./mixin";
+
+.top {
+
+  &_img {
+
+    text-align: center;
+
+    h1 {
+
+      -webkit-text-stroke-width: 4px;
+      -webkit-text-stroke-color: rgb(255, 255, 255);
+      color: rgba(0, 0, 0, 0);
+      font-size: 126px;
+    }
+
+    p {
+
+      font-size: 64px;
+      font-weight: bold;
+      color: rgb(198, 146, 72);
+    }
+  }
+}
+
+.breadcrumb {
+
+  max-width: 90%;
+  margin: 40px auto;
+
+  ul {
+
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  li {
+
+    font-size: 20px;
+
+    &::after {
+
+      content: ">";
+      padding-right: 10px;
+      font-size: 20px;
+    }
+
+    &:last-child::after {
+
+      content: "";
+    }
+  }
+}
+
+.color {
+  color: #5B8FAD;
+  font-weight: 700;
+}

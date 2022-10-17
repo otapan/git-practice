@@ -1,0 +1,24 @@
+@mixin sns_icon {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+@mixin sns_icon_hover {
+
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+@mixin header_menu {
+  content: "";
+  display: block;
+  width: 24px;
+  background: #aaaaaa;
+  height: 4px;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
